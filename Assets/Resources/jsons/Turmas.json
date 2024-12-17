@@ -1,0 +1,105 @@
+{
+  "Turmas": [
+    {
+      "id_turma": "2024-01-a",
+      "id_professor": 1,
+      "ativa": true,
+      "alunos": [ 1 ],
+      "avaliacoes": [
+        {
+          "id_avaliacao": "1",
+          "respostas": [ "a", "a" ],
+          "id_aluno": 1,
+          "id_cenario": "1",
+          "nota": 10,
+          "comentario": "tri"
+        },
+        {
+          "id_avaliacao": "2",
+          "respostas": [ "a", "b" ],
+          "id_aluno": 1,
+          "id_cenario": "1",
+          "nota": 5
+        }
+      ]
+    },    {
+      "id_turma": "2024-01-b",
+      "id_professor": 1,
+      "ativa": true,
+      "alunos": [ 2, 3 ],
+      "avaliacoes": [
+        {
+          "id_avaliacao": "3",
+          "respostas": [ "b", "a" ],
+          "id_aluno": 2,
+          "id_cenario": "2",
+          "nota": 8,
+          "comentario": "Bom desempenho"
+        }
+      ]
+    },    {
+      "id_turma": "2024-02-c",
+      "id_professor": 1,
+      "ativa": true,
+      "alunos": [ 2, 3 ],
+      "avaliacoes": [
+        {
+          "id_avaliacao": "3",
+          "respostas": [ "b", "a" ],
+          "id_aluno": 2,
+          "id_cenario": "2",
+          "nota": 8,
+          "comentario": "Bom desempenho"
+        }
+      ]
+    },
+    {
+      "id_turma": "2024-01-b",
+      "id_professor": 2,
+      "ativa": true,
+      "alunos": [ 2, 3 ],
+      "avaliacoes": [
+        {
+          "id_avaliacao": "3",
+          "respostas": [ "b", "a" ],
+          "id_aluno": 2,
+          "id_cenario": "2",
+          "nota": 8,
+          "comentario": "Bom desempenho"
+        }
+      ]
+    },
+    {
+      "id_turma": "2024-02-a",
+      "id_professor": 3,
+      "ativa": true,
+      "alunos": [ 3, 4 ],
+      "avaliacoes": [
+        {
+          "id_avaliacao": "4",
+          "respostas": [ "b", "d" ],
+          "id_aluno": 3,
+          "id_cenario": "3",
+          "nota": 7,
+          "comentario": "Regular"
+        }
+      ]
+    },
+    {
+      "id_turma": "2024-02-b",
+      "id_professor": 4,
+      "ativa": false,
+      "alunos": [ 1, 4 ],
+      "avaliacoes": [
+        {
+          "id_avaliacao": "5",
+          "respostas": [ "a", "b" ],
+          "id_aluno": 4,
+          "id_cenario": "4",
+          "nota": 9,
+          "comentario": "Excelente"
+        }
+      ]
+    }
+  ]
+}

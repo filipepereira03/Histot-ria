@@ -1,0 +1,10 @@
+character("Ky", color=red, image=MINISTRO_2)
+show BG_2 with Fade do clear
+Ky "Hi"
+appear ky, right
+Ky "Hello again"
+Ky "Where are you?"
+disappear Ky
+"I'm here"
+Ky "Where did I go?"
+end

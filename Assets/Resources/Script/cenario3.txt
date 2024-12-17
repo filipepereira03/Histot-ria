@@ -1,0 +1,136 @@
+character("Dom Pedro II", color=black, image=DOM_PEDRO_ADULTO)
+character("Dom Pedro II Jovem", color=black, image=DOM_PEDRO_JOVEM)
+character("Ministro", color=black, image=MINISTRO_1)
+character("Ministro 2", color=black, image=MINISTRO_2)
+character("Conselheiro", color=black, image=CONSELHEIRO)
+character("General", color=black, image=GENERAL)
+character("Princesa Isabel", color=black, image=PRINCESA_ISABEL)
+character("Oficial Superior", color=black, image=OFICIAL)
+character("Ministro da Guerra", color=black, image=MINISTRO_DE_GUERRA)
+character("Marechal Deodoro", color=black, image=DEODORO)
+character("Oficial de Guerra", color=black, image=OFICIAL_DE_GUERRA)
+character("Narrador", color=black)
+
+Narrador "Missão 1: A Crise do Período Regencial e a Ascensão de Dom Pedro II"
+
+show Cen_1_BG_1 with Fade do clear
+Narrador "Você, Dom Pedro II, está no Paço Imperial em 1840, prestes a ser coroado imperador, após um período de crises e instabilidade durante a Regência."
+Narrador "Ministros e conselheiros discutem o futuro do Brasil sob seu governo."
+show Cen_1_BG_1 with Fade do clear
+
+appear "Ministro", main
+Ministro "Majestade, o Brasil precisa de estabilidade após anos de revoltas. Sua coroação como imperador é a esperança do povo."
+disappear "Ministro"
+
+appear "Conselheiro", main
+Conselheiro "Mas é importante que Sua Majestade entenda os desafios que o país enfrenta e busque apoio das províncias."
+disappear "Conselheiro"
+
+appear "Dom Pedro II Jovem", main
+Dom_Pedro_II "Estou ciente da responsabilidade que assumo e farei o possível para trazer paz e prosperidade ao Império."
+disappear "Dom Pedro II Jovem"
+
+question "Qual seria a primeira prioridade de Dom Pedro II ao assumir o trono?" : "A - Promover a unidade nacional, buscando apoio político nas províncias e garantindo a estabilidade do Império" ; "B - Fortalecer o exército para reprimir futuras revoltas" ; "C - Centralizar o poder no Rio de Janeiro, ignorando as demandas provinciais" ; "D - Iniciar uma campanha para expandir o território brasileiro"
+
+appear "Ministro", main
+Ministro "Sua Majestade está tomando o caminho certo, buscando a unidade do Brasil."
+disappear "Ministro"
+
+show transition
+Narrador "Missão 2: A Guerra do Paraguai"
+
+
+show Cen_1_BG_2 with Fade do clear
+Narrador "Você, Dom Pedro II, está em 1864, durante a Guerra do Paraguai, a maior guerra que o Brasil enfrentou no século XIX."
+Narrador "A decisão sobre como proceder militarmente é crucial para o futuro do Império."
+
+appear "General", main
+General "Majestade, nossas tropas estão enfrentando dificuldades no campo de batalha. Precisamos de mais recursos e apoio logístico."
+disappear "General"
+
+appear "Ministro da Guerra", main
+Ministro_da_Guerra "A guerra é cara, mas a vitória é essencial para a segurança do Brasil e para manter nossa influência na região."
+disappear "Ministro da Guerra"
+
+
+appear "Dom Pedro II", main
+Dom_Pedro_II "Esta guerra deve ser vencida, mas precisamos garantir que o Brasil não se esgote economicamente."
+disappear "Dom Pedro II"
+
+question "Qual estratégia Dom Pedro II deve adotar para conduzir o Brasil à vitória na Guerra do Paraguai?" : "A - Aumentar o apoio logístico e financeiro ao Exército, garantindo uma vitória rápida e decisiva." ; "B - Retirar as tropas para evitar mais custos e buscar uma solução diplomática." ; "C - Delegar o comando da guerra a aliados regionais, diminuindo a participação direta do Brasil." ; "D - Mobilizar toda a população para um esforço de guerra total, sem considerar os impactos econômicos."
+
+show transition
+Narrador "Missão 3: A Abolição da Escravatura"
+show Cen_1_BG_3 with Fade do clear
+Narrador "Você, Dom Pedro II, está em 1888, em uma reunião com sua filha, a Princesa Isabel, e conselheiros do Império, discutindo sobre a assinatura da Lei Áurea, que abolirá a escravidão no Brasil."
+
+appear "Princesa Isabel", main
+Princesa_Isabel "Pai, é nossa responsabilidade moral acabar com a escravidão de uma vez por todas."
+disappear "Princesa Isabel"
+
+appear "Conselheiro", main
+Conselheiro "Majestade, os fazendeiros estão preocupados com o impacto econômico. Precisamos considerar as consequências."
+disappear "Conselheiro"
+
+
+appear "Dom Pedro II", main
+Dom_Pedro_II "A liberdade de todos os brasileiros é essencial, mas como podemos equilibrar isso com a estabilidade do Império?"
+disappear "Dom Pedro II"
+
+question "Qual seria a melhor abordagem de Dom Pedro II para a abolição da escravatura?" : "A - Apoiar a assinatura da Lei Áurea, mesmo que enfrente oposição, e trabalhar em políticas para integrar os ex-escravos na sociedade" ; "B - Adiar a abolição para garantir que os fazendeiros possam se adaptar gradualmente" ; "C - Manter a escravidão por mais alguns anos, focando em reformas agrárias primeiro" ; "D - Transferir a responsabilidade para a Princesa Isabel e evitar tomar uma posição direta"
+
+appear "Narrador" with fade
+Narrador "Dom Pedro II escolhe um caminho, consciente das consequências históricas que sua decisão terá para o futuro do Brasil e seu povo."
+disappear "Narrador"
+
+show transition
+Narrador "Missão 4: A Questão Militar"
+show Cen_1_BG_4 with Fade do clear
+Narrador "Você, Dom Pedro II, está em 1884, enfrentando a Questão Militar, um período de tensões entre o Exército e o governo imperial, com oficiais descontentes devido à falta de reconhecimento e apoio do governo."
+
+appear "Oficial Superior", main
+Oficial_Superior "Majestade, nossos soldados estão descontentes com a falta de apoio e reconhecimento. O Exército se sente desvalorizado."
+disappear "Oficial Superior"
+
+appear "Ministro da Guerra", main
+Ministro_da_guerra "Precisamos evitar que essas tensões se transformem em um movimento contra o governo."
+disappear "Ministro da Guerra"
+
+
+appear "Dom Pedro II", main
+Dom_Pedro_II "O Exército é essencial para a estabilidade do Império. Devemos tratar essa questão com cuidado para manter a lealdade militar."
+disappear "Dom Pedro II"
+
+question "Qual seria a melhor maneira de Dom Pedro II lidar com a Questão Militar?" : "A - Reconhecer a importância do Exército, oferecendo melhorias nas condições de trabalho e maior reconhecimento aos oficiais" ; "B - Reprimir qualquer insatisfação militar com medidas disciplinares rígidas" ; "C - Ignorar as queixas dos militares, confiando na lealdade incondicional ao trono" ; "D - Convocar novas tropas para substituir os oficiais insatisfeitos"
+
+appear "Narrador" with fade
+Narrador "Dom Pedro II escolhe uma abordagem para resolver a Questão Militar, influenciando a relação entre o Exército e o governo imperial."
+disappear "Narrador"
+
+show transition
+Narrador "Missão 5: A Queda da Monarquia e a Proclamação da República"
+show Cen_1_BG_5 with Fade do clear
+Narrador "Você, Dom Pedro II, está no Palácio Imperial em 15 de novembro de 1889, quando os líderes republicanos proclamam a República, marcando o fim do Império Brasileiro."
+
+appear "Marechal Deodoro", main
+Marechal_Deodoro "Majestade, a República foi proclamada. O povo deseja mudanças, e a monarquia chegou ao fim."
+disappear "Marechal Deodoro"
+
+appear "Ministro 2", main
+Ministro "Precisamos garantir uma transição pacífica para evitar um conflito armado."
+disappear "Ministro 2"
+
+
+appear "Dom Pedro II", main
+Dom_Pedro_II "Sempre busquei o bem do Brasil. Se o povo deseja a República, devemos garantir que a transição ocorra sem derramamento de sangue."
+disappear "Dom Pedro II"
+
+question "Qual seria a melhor atitude de Dom Pedro II diante da Proclamação da República?" : "A - Abdicar pacificamente e aceitar o exílio para garantir uma transição sem violência" ; "B - Resistir à Proclamação da República e tentar mobilizar forças leais para manter a monarquia" ; "C - Negociar para manter uma monarquia constitucional limitada" ; "D - Ignorar a proclamação e continuar governando como se nada tivesse acontecido"
+
+appear "Narrador" with fade
+Narrador "Dom Pedro II escolhe sua última ação como imperador, deixando uma marca no final do Império e no início da República."
+disappear "Narrador"
+
+clrscr
+end
+

@@ -1,0 +1,10 @@
+character("Ko", color=blue, image=MINISTRO_2)
+show BG_1 with Fade do clear
+Ko "Hi my man"
+appear ky, right
+Ko "Allone again"
+Ko "Where are you??"
+disappear Ky
+"I'm here"
+Ko "Where did I go?"
+end

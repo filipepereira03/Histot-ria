@@ -1,0 +1,37 @@
+[
+    {
+        "professor_id": "1",
+        "nome": "Douglas Soares",
+        "matricula": "PROF001",
+        "email": "douglas.soares@email.com",
+        "senha": "senha123"
+    },
+    {
+        "professor_id": "2",
+        "nome": "Maria Oliveira",
+        "matricula": "PROF002",
+        "email": "maria.oliveira@email.com",
+        "senha": "senha456"
+    },
+    {
+        "professor_id": "3",
+        "nome": "Carlos Ferreira",
+        "matricula": "PROF003",
+        "email": "carlos.ferreira@email.com",
+        "senha": "senha789"
+    },
+    {
+        "professor_id": "4",
+        "nome": "Luciana Mendes",
+        "matricula": "PROF004",
+        "email": "luciana.mendes@email.com",
+        "senha": "senha321"
+    },
+    {
+        "professor_id": "5",
+        "nome": "Roberto Carlos",
+        "matricula": "PROF005",
+        "email": "roberto.carlos@email.com",
+        "senha": "senha654"
+    }
+]

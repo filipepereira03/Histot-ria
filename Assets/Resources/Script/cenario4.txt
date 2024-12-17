@@ -1,0 +1,115 @@
+character("Getúlio Vargas", color=black, image=GETULIO_VARGAS)
+character("Aliado Político", color=black, image=ALIADO_POLITICO)
+character("Conselheiro", color=black, image=CONSELHEIRO_GETULIO)
+character("General", color=black, image=GENERAL_GETULIO)
+character("Ministro do Trabalho", color=black, image=MINISTRO_TRABALHO)
+character("Empresário", color=black, image=EMPRESARIO)
+character("Ministro da Fazenda", color=black, image=MINISTRO_FAZENDA)
+character("Diplomata Americano", color=black, image=DIPLOMATA_AMERICANO)
+character("Ministro de Minas e Energia", color=black, image=MINISTRO_MINAS_ENERGIA)
+character("Nacionalista", color=black, image=NACIONALISTA)
+character("Narrador", color=black)
+
+Narrador "Missão 1: A Revolução de 1930"
+
+show BG_1 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em outubro de 1930, liderando a Revolução que culminará na queda da República Velha." 
+Narrador "O Brasil está em um momento decisivo, e você precisa tomar medidas para garantir o sucesso do movimento."
+
+appear "Aliado Político", main
+Aliado_Político "Governador Vargas, o apoio dos militares é crucial para que possamos derrubar o governo central."
+disappear "Aliado Político"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "O momento de agir é agora. Precisamos garantir que os estados mais importantes apoiem nossa causa para tomarmos o poder."
+disappear "Getúlio Vargas"
+
+appear "Conselheiro", main
+Conselheiro "Temos que planejar nossas ações com precisão para evitar uma guerra civil prolongada."
+disappear "Conselheiro"
+
+question "Qual seria a melhor estratégia de Getúlio Vargas para assegurar o sucesso da Revolução de 1930?" : "A - Unir forças com os militares e líderes estaduais descontentes, garantindo o controle de pontos estratégicos e evitando confrontos desnecessários" ; "B - Declarar guerra aberta ao governo central, sem buscar alianças com outros estados" ; "C - Esperar que a situação se resolva sozinha, sem uma ação imediata" ; "D - Negociar com o governo central, propondo reformas sem a necessidade de uma revolução"
+
+show transition
+Narrador "Missão 2: A Consolidação do Estado Novo"
+
+show BG_2 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em 1937, às vésperas de instaurar o Estado Novo, um regime autoritário que suspenderá a Constituição de 1934. A decisão de centralizar o poder e instaurar um governo forte está prestes a ser tomada."
+
+appear "Conselheiro", main
+Conselheiro "Presidente Vargas, o Congresso está dividido. Podemos usar isso como pretexto para declarar um estado de emergência e consolidar o poder."
+disappear "Conselheiro"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "A estabilidade do país depende de um governo forte. Precisamos garantir que não haverá oposição significativa ao Estado Novo."
+disappear "Getúlio Vargas"
+
+appear "General", main
+General "Com as forças armadas ao seu lado, a transição para o novo regime será rápida e eficiente."
+disappear "General"
+
+question "Qual seria a melhor abordagem de Getúlio Vargas para instaurar o Estado Novo" : "A - Declarar um estado de emergência, dissolver o Congresso, e instaurar o Estado Novo com o apoio das forças armadas, centralizando o poder em suas mãos" ; "B - Manter a Constituição de 1934, buscando acordos com o Congresso para evitar conflitos" ; "C - Ignorar as divisões políticas e continuar governando sem mudanças estruturais" ; "D - Organizar novas eleições para legitimar seu governo democraticamente"
+
+show transition
+Narrador "Missão 3: A Criação da CLT"
+
+show BG_3 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em 1943, no auge do Estado Novo, prestes a implementar a Consolidação das Leis do Trabalho (CLT), um marco nas relações de trabalho no Brasil. A CLT visa regulamentar os direitos dos trabalhadores e fortalecer seu apoio ao governo."
+
+appear "Ministro do Trabalho", main
+Ministro_do_Trabalho "Presidente, a CLT vai garantir direitos fundamentais aos trabalhadores e fortalecer sua base de apoio entre as massas."
+disappear "Ministro do Trabalho"
+
+appear "Empresário", main
+Empresário "No entanto, Presidente, os empresários estão preocupados com o impacto econômico dessas novas leis."
+disappear "Empresário"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "Precisamos equilibrar os direitos dos trabalhadores com a viabilidade econômica das empresas. A CLT é essencial para modernizar o Brasil."
+disappear "Getúlio Vargas"
+
+question "Qual seria a melhor estratégia de Getúlio Vargas para implementar a CLT" : "A - Promover a CLT como uma conquista histórica para os trabalhadores, enquanto negocia com os empresários para garantir que a economia continue a prosperar" ; "B - Impor a CLT sem considerar as preocupações dos empresários, focando apenas nos direitos dos trabalhadores" ; "C - Adiar a implementação da CLT até que a economia esteja mais estável" ; "D - Revogar a CLT diante da oposição empresarial, mantendo as leis trabalhistas anteriores"
+
+show transition
+Narrador "Missão 4: A Industrialização e a Companhia Siderúrgica Nacional (CSN)"
+
+show BG_4 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em 1941, durante o início da Segunda Guerra Mundial."" 
+Narrador "Com o Brasil se modernizando rapidamente, a criação da Companhia Siderúrgica Nacional (CSN) se torna um projeto essencial para impulsionar a industrialização do país e garantir sua independência econômica."
+
+appear "Ministro da Fazenda", main
+Ministro_da_Fazenda "Presidente, a construção da CSN vai colocar o Brasil entre as principais nações industrializadas, mas precisamos de financiamento estrangeiro para isso."
+disappear "Ministro da Fazenda"
+
+appear "Diplomata Americano", main
+Diplomata_Americano "Os Estados Unidos estão dispostos a ajudar, mas em troca de apoio do Brasil na guerra."
+disappear "Diplomata Americano"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "Precisamos equilibrar nossos interesses nacionais com as demandas internacionais para garantir o futuro econômico do Brasil."
+disappear "Getúlio Vargas"
+
+question "Qual seria a melhor estratégia de Getúlio Vargas para assegurar a criação da CSN" : "A - Negociar apoio financeiro e tecnológico dos Estados Unidos em troca de cooperação durante a guerra, garantindo que a CSN seja um marco na industrialização do Brasil" ; "B - Recusar qualquer ajuda estrangeira, optando por um desenvolvimento industrial mais lento e independente" ; "C - Priorizar outros setores da economia, adiando a construção da CSN para um momento mais oportuno" ; "D - Focar no desenvolvimento da agricultura em vez da industrialização, mantendo o Brasil como uma economia agrária"
+
+show transition
+Narrador "Missão 5: A Criação da Petrobras"
+
+show BG_5 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em 1953, durante seu segundo mandato, defendendo a criação da Petrobras como uma empresa estatal para explorar e desenvolver o petróleo no Brasil. A campanha 'O Petróleo é Nosso' é central para o seu governo."
+
+appear "Ministro de Minas e Energia", main
+Ministro_de_Minas_e_Energia "Presidente, a criação da Petrobras será um marco para a soberania nacional. No entanto, há forte oposição dos grupos estrangeiros."
+disappear "Ministro de Minas e Energia"
+
+appear "Nacionalista", main
+Nacionalista "O Brasil precisa controlar seus próprios recursos. A criação da Petrobras é uma questão de independência econômica."
+disappear "Nacionalista"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "A soberania do Brasil está em jogo. Devemos garantir que o petróleo seja uma riqueza nacional."
+disappear "Getúlio Vargas"
+
+question "Qual seria a melhor estratégia de Getúlio Vargas para assegurar a criação da Petrobras?" : "A - "Promover a criação da Petrobras como um símbolo da soberania nacional, enfrentando a oposição interna e externa com apoio popular" ; "B - Desistir da criação da Petrobras para evitar conflitos com grupos estrangeiros" ; "C - Privatizar o setor petrolífero, permitindo a entrada de empresas estrangeiras no mercado brasileiro" ; "D - Adiar a criação da Petrobras até que o Brasil tenha mais recursos tecnológicos e financeiros"
+
+clrscr
+end

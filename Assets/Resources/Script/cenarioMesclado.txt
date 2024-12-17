@@ -1,0 +1,251 @@
+character("Dom Pedro II", color=black, image=DOM_PEDRO_ADULTO)
+character("Dom Pedro II Jovem", color=black, image=DOM_PEDRO_JOVEM)
+character("Ministro", color=black, image=MINISTRO_1)
+character("Ministro 2", color=black, image=MINISTRO_2)
+character("Conselheiro", color=black, image=CONSELHEIRO)
+character("General", color=black, image=GENERAL)
+character("Princesa Isabel", color=black, image=PRINCESA_ISABEL)
+character("Oficial Superior", color=black, image=OFICIAL)
+character("Ministro da Guerra", color=black, image=MINISTRO_DE_GUERRA)
+character("Marechal Deodoro", color=black, image=DEODORO)
+character("Oficial de Guerra", color=black, image=OFICIAL_DE_GUERRA)
+
+character("Getúlio Vargas", color=black, image=GETULIO_VARGAS)
+character("Aliado Político", color=black, image=ALIADO_POLITICO)
+character("Conselheiro getulio", color=black, image=CONSELHEIRO_GETULIO)
+character("General getulio", color=black, image=GENERAL_GETULIO)
+character("Ministro do Trabalho", color=black, image=MINISTRO_TRABALHO)
+character("Empresário", color=black, image=EMPRESARIO)
+character("Ministro da Fazenda", color=black, image=MINISTRO_FAZENDA)
+character("Diplomata Americano", color=black, image=DIPLOMATA_AMERICANO)
+character("Ministro de Minas e Energia", color=black, image=MINISTRO_MINAS_ENERGIA)
+character("Nacionalista", color=black, image=NACIONALISTA)
+character("Narrador", color=black)
+
+Narrador "Missão 1: A Crise do Período Regencial e a Ascensão de Dom Pedro II"
+
+show Cen_1_BG_1 with Fade do clear
+Narrador "Você, Dom Pedro II, está no Paço Imperial em 1840, prestes a ser coroado imperador, após um período de crises e instabilidade durante a Regência."
+Narrador "Ministros e conselheiros discutem o futuro do Brasil sob seu governo."
+show Cen_1_BG_1 with Fade do clear
+
+appear "Ministro", main
+Ministro "Majestade, o Brasil precisa de estabilidade após anos de revoltas. Sua coroação como imperador é a esperança do povo."
+disappear "Ministro"
+
+appear "Conselheiro", main
+Conselheiro "Mas é importante que Sua Majestade entenda os desafios que o país enfrenta e busque apoio das províncias."
+disappear "Conselheiro"
+
+appear "Dom Pedro II Jovem", main
+Dom_Pedro_II "Estou ciente da responsabilidade que assumo e farei o possível para trazer paz e prosperidade ao Império."
+disappear "Dom Pedro II Jovem"
+
+question "Qual seria a primeira prioridade de Dom Pedro II ao assumir o trono?" : "A - Promover a unidade nacional, buscando apoio político nas províncias e garantindo a estabilidade do Império" ; "B - Fortalecer o exército para reprimir futuras revoltas" ; "C - Centralizar o poder no Rio de Janeiro, ignorando as demandas provinciais" ; "D - Iniciar uma campanha para expandir o território brasileiro"
+
+appear "Ministro", main
+Ministro "Sua Majestade está tomando o caminho certo, buscando a unidade do Brasil."
+disappear "Ministro"
+
+show transition
+Narrador "Missão 2: A Guerra do Paraguai"
+
+
+show Cen_1_BG_2 with Fade do clear
+Narrador "Você, Dom Pedro II, está em 1864, durante a Guerra do Paraguai, a maior guerra que o Brasil enfrentou no século XIX."
+Narrador "A decisão sobre como proceder militarmente é crucial para o futuro do Império."
+
+appear "General", main
+General "Majestade, nossas tropas estão enfrentando dificuldades no campo de batalha. Precisamos de mais recursos e apoio logístico."
+disappear "General"
+
+appear "Ministro da Guerra", main
+Ministro_da_Guerra "A guerra é cara, mas a vitória é essencial para a segurança do Brasil e para manter nossa influência na região."
+disappear "Ministro da Guerra"
+
+
+appear "Dom Pedro II", main
+Dom_Pedro_II "Esta guerra deve ser vencida, mas precisamos garantir que o Brasil não se esgote economicamente."
+disappear "Dom Pedro II"
+
+question "Qual estratégia Dom Pedro II deve adotar para conduzir o Brasil à vitória na Guerra do Paraguai?" : "A - Aumentar o apoio logístico e financeiro ao Exército, garantindo uma vitória rápida e decisiva." ; "B - Retirar as tropas para evitar mais custos e buscar uma solução diplomática." ; "C - Delegar o comando da guerra a aliados regionais, diminuindo a participação direta do Brasil." ; "D - Mobilizar toda a população para um esforço de guerra total, sem considerar os impactos econômicos."
+
+show transition
+Narrador "Missão 3: A Abolição da Escravatura"
+show Cen_1_BG_3 with Fade do clear
+Narrador "Você, Dom Pedro II, está em 1888, em uma reunião com sua filha, a Princesa Isabel, e conselheiros do Império, discutindo sobre a assinatura da Lei Áurea, que abolirá a escravidão no Brasil."
+
+appear "Princesa Isabel", main
+Princesa_Isabel "Pai, é nossa responsabilidade moral acabar com a escravidão de uma vez por todas."
+disappear "Princesa Isabel"
+
+appear "Conselheiro", main
+Conselheiro "Majestade, os fazendeiros estão preocupados com o impacto econômico. Precisamos considerar as consequências."
+disappear "Conselheiro"
+
+
+appear "Dom Pedro II", main
+Dom_Pedro_II "A liberdade de todos os brasileiros é essencial, mas como podemos equilibrar isso com a estabilidade do Império?"
+disappear "Dom Pedro II"
+
+question "Qual seria a melhor abordagem de Dom Pedro II para a abolição da escravatura?" : "A - Apoiar a assinatura da Lei Áurea, mesmo que enfrente oposição, e trabalhar em políticas para integrar os ex-escravos na sociedade" ; "B - Adiar a abolição para garantir que os fazendeiros possam se adaptar gradualmente" ; "C - Manter a escravidão por mais alguns anos, focando em reformas agrárias primeiro" ; "D - Transferir a responsabilidade para a Princesa Isabel e evitar tomar uma posição direta"
+
+appear "Narrador" with fade
+Narrador "Dom Pedro II escolhe um caminho, consciente das consequências históricas que sua decisão terá para o futuro do Brasil e seu povo."
+disappear "Narrador"
+
+show transition
+Narrador "Missão 4: A Questão Militar"
+show Cen_1_BG_4 with Fade do clear
+Narrador "Você, Dom Pedro II, está em 1884, enfrentando a Questão Militar, um período de tensões entre o Exército e o governo imperial, com oficiais descontentes devido à falta de reconhecimento e apoio do governo."
+
+appear "Oficial Superior", main
+Oficial_Superior "Majestade, nossos soldados estão descontentes com a falta de apoio e reconhecimento. O Exército se sente desvalorizado."
+disappear "Oficial Superior"
+
+appear "Ministro da Guerra", main
+Ministro_da_guerra "Precisamos evitar que essas tensões se transformem em um movimento contra o governo."
+disappear "Ministro da Guerra"
+
+
+appear "Dom Pedro II", main
+Dom_Pedro_II "O Exército é essencial para a estabilidade do Império. Devemos tratar essa questão com cuidado para manter a lealdade militar."
+disappear "Dom Pedro II"
+
+question "Qual seria a melhor maneira de Dom Pedro II lidar com a Questão Militar?" : "A - Reconhecer a importância do Exército, oferecendo melhorias nas condições de trabalho e maior reconhecimento aos oficiais" ; "B - Reprimir qualquer insatisfação militar com medidas disciplinares rígidas" ; "C - Ignorar as queixas dos militares, confiando na lealdade incondicional ao trono" ; "D - Convocar novas tropas para substituir os oficiais insatisfeitos"
+
+appear "Narrador" with fade
+Narrador "Dom Pedro II escolhe uma abordagem para resolver a Questão Militar, influenciando a relação entre o Exército e o governo imperial."
+disappear "Narrador"
+
+show transition
+Narrador "Missão 5: A Queda da Monarquia e a Proclamação da República"
+show Cen_1_BG_5 with Fade do clear
+Narrador "Você, Dom Pedro II, está no Palácio Imperial em 15 de novembro de 1889, quando os líderes republicanos proclamam a República, marcando o fim do Império Brasileiro."
+
+appear "Marechal Deodoro", main
+Marechal_Deodoro "Majestade, a República foi proclamada. O povo deseja mudanças, e a monarquia chegou ao fim."
+disappear "Marechal Deodoro"
+
+appear "Ministro 2", main
+Ministro "Precisamos garantir uma transição pacífica para evitar um conflito armado."
+disappear "Ministro 2"
+
+
+appear "Dom Pedro II", main
+Dom_Pedro_II "Sempre busquei o bem do Brasil. Se o povo deseja a República, devemos garantir que a transição ocorra sem derramamento de sangue."
+disappear "Dom Pedro II"
+
+question "Qual seria a melhor atitude de Dom Pedro II diante da Proclamação da República?" : "A - Abdicar pacificamente e aceitar o exílio para garantir uma transição sem violência" ; "B - Resistir à Proclamação da República e tentar mobilizar forças leais para manter a monarquia" ; "C - Negociar para manter uma monarquia constitucional limitada" ; "D - Ignorar a proclamação e continuar governando como se nada tivesse acontecido"
+
+appear "Narrador" with fade
+Narrador "Dom Pedro II escolhe sua última ação como imperador, deixando uma marca no final do Império e no início da República."
+disappear "Narrador"
+
+
+show transition
+Narrador "Missão 1: A Revolução de 1930"
+
+show BG_1 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em outubro de 1930, liderando a Revolução que culminará na queda da República Velha." 
+Narrador "O Brasil está em um momento decisivo, e você precisa tomar medidas para garantir o sucesso do movimento."
+
+appear "Aliado Político", main
+Aliado_Político "Governador Vargas, o apoio dos militares é crucial para que possamos derrubar o governo central."
+disappear "Aliado Político"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "O momento de agir é agora. Precisamos garantir que os estados mais importantes apoiem nossa causa para tomarmos o poder."
+disappear "Getúlio Vargas"
+
+appear "Conselheiro getulio", main
+Conselheiro "Temos que planejar nossas ações com precisão para evitar uma guerra civil prolongada."
+disappear "Conselheiro getulio"
+
+question "Qual seria a melhor estratégia de Getúlio Vargas para assegurar o sucesso da Revolução de 1930?" : "A - Unir forças com os militares e líderes estaduais descontentes, garantindo o controle de pontos estratégicos e evitando confrontos desnecessários" ; "B - Declarar guerra aberta ao governo central, sem buscar alianças com outros estados" ; "C - Esperar que a situação se resolva sozinha, sem uma ação imediata" ; "D - Negociar com o governo central, propondo reformas sem a necessidade de uma revolução"
+
+show transition
+Narrador "Missão 2: A Consolidação do Estado Novo"
+
+show BG_2 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em 1937, às vésperas de instaurar o Estado Novo, um regime autoritário que suspenderá a Constituição de 1934. A decisão de centralizar o poder e instaurar um governo forte está prestes a ser tomada."
+
+appear "Conselheiro getulio", main
+Conselheiro "Presidente Vargas, o Congresso está dividido. Podemos usar isso como pretexto para declarar um estado de emergência e consolidar o poder."
+disappear "Conselheiro getulio"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "A estabilidade do país depende de um governo forte. Precisamos garantir que não haverá oposição significativa ao Estado Novo."
+disappear "Getúlio Vargas"
+
+appear "General getulio", main
+General "Com as forças armadas ao seu lado, a transição para o novo regime será rápida e eficiente."
+disappear "General getulio"
+
+question "Qual seria a melhor abordagem de Getúlio Vargas para instaurar o Estado Novo" : "A - Declarar um estado de emergência, dissolver o Congresso, e instaurar o Estado Novo com o apoio das forças armadas, centralizando o poder em suas mãos" ; "B - Manter a Constituição de 1934, buscando acordos com o Congresso para evitar conflitos" ; "C - Ignorar as divisões políticas e continuar governando sem mudanças estruturais" ; "D - Organizar novas eleições para legitimar seu governo democraticamente"
+
+show transition
+Narrador "Missão 3: A Criação da CLT"
+
+show BG_3 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em 1943, no auge do Estado Novo, prestes a implementar a Consolidação das Leis do Trabalho (CLT), um marco nas relações de trabalho no Brasil. A CLT visa regulamentar os direitos dos trabalhadores e fortalecer seu apoio ao governo."
+
+appear "Ministro do Trabalho", main
+Ministro_do_Trabalho "Presidente, a CLT vai garantir direitos fundamentais aos trabalhadores e fortalecer sua base de apoio entre as massas."
+disappear "Ministro do Trabalho"
+
+appear "Empresário", main
+Empresário "No entanto, Presidente, os empresários estão preocupados com o impacto econômico dessas novas leis."
+disappear "Empresário"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "Precisamos equilibrar os direitos dos trabalhadores com a viabilidade econômica das empresas. A CLT é essencial para modernizar o Brasil."
+disappear "Getúlio Vargas"
+
+question "Qual seria a melhor estratégia de Getúlio Vargas para implementar a CLT" : "A - Promover a CLT como uma conquista histórica para os trabalhadores, enquanto negocia com os empresários para garantir que a economia continue a prosperar" ; "B - Impor a CLT sem considerar as preocupações dos empresários, focando apenas nos direitos dos trabalhadores" ; "C - Adiar a implementação da CLT até que a economia esteja mais estável" ; "D - Revogar a CLT diante da oposição empresarial, mantendo as leis trabalhistas anteriores"
+
+show transition
+Narrador "Missão 4: A Industrialização e a Companhia Siderúrgica Nacional (CSN)"
+
+show BG_4 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em 1941, durante o início da Segunda Guerra Mundial."" 
+Narrador "Com o Brasil se modernizando rapidamente, a criação da Companhia Siderúrgica Nacional (CSN) se torna um projeto essencial para impulsionar a industrialização do país e garantir sua independência econômica."
+
+appear "Ministro da Fazenda", main
+Ministro_da_Fazenda "Presidente, a construção da CSN vai colocar o Brasil entre as principais nações industrializadas, mas precisamos de financiamento estrangeiro para isso."
+disappear "Ministro da Fazenda"
+
+appear "Diplomata Americano", main
+Diplomata_Americano "Os Estados Unidos estão dispostos a ajudar, mas em troca de apoio do Brasil na guerra."
+disappear "Diplomata Americano"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "Precisamos equilibrar nossos interesses nacionais com as demandas internacionais para garantir o futuro econômico do Brasil."
+disappear "Getúlio Vargas"
+
+question "Qual seria a melhor estratégia de Getúlio Vargas para assegurar a criação da CSN" : "A - Negociar apoio financeiro e tecnológico dos Estados Unidos em troca de cooperação durante a guerra, garantindo que a CSN seja um marco na industrialização do Brasil" ; "B - Recusar qualquer ajuda estrangeira, optando por um desenvolvimento industrial mais lento e independente" ; "C - Priorizar outros setores da economia, adiando a construção da CSN para um momento mais oportuno" ; "D - Focar no desenvolvimento da agricultura em vez da industrialização, mantendo o Brasil como uma economia agrária"
+
+show transition
+Narrador "Missão 5: A Criação da Petrobras"
+
+show BG_5 with Fade do clear
+Narrador "Você, Getúlio Vargas, está em 1953, durante seu segundo mandato, defendendo a criação da Petrobras como uma empresa estatal para explorar e desenvolver o petróleo no Brasil. A campanha 'O Petróleo é Nosso' é central para o seu governo."
+
+appear "Ministro de Minas e Energia", main
+Ministro_de_Minas_e_Energia "Presidente, a criação da Petrobras será um marco para a soberania nacional. No entanto, há forte oposição dos grupos estrangeiros."
+disappear "Ministro de Minas e Energia"
+
+appear "Nacionalista", main
+Nacionalista "O Brasil precisa controlar seus próprios recursos. A criação da Petrobras é uma questão de independência econômica."
+disappear "Nacionalista"
+
+appear "Getúlio Vargas", main
+Getúlio_Vargas "A soberania do Brasil está em jogo. Devemos garantir que o petróleo seja uma riqueza nacional."
+disappear "Getúlio Vargas"
+
+question "Qual seria a melhor estratégia de Getúlio Vargas para assegurar a criação da Petrobras?" : "A - "Promover a criação da Petrobras como um símbolo da soberania nacional, enfrentando a oposição interna e externa com apoio popular" ; "B - Desistir da criação da Petrobras para evitar conflitos com grupos estrangeiros" ; "C - Privatizar o setor petrolífero, permitindo a entrada de empresas estrangeiras no mercado brasileiro" ; "D - Adiar a criação da Petrobras até que o Brasil tenha mais recursos tecnológicos e financeiros"
+
+clrscr
+end
+
+

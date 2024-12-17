@@ -1,0 +1,61 @@
+{
+  "Cenarios": [
+    {
+      "id_cenario": "1",
+      "perguntas": [
+        {
+          "pergunta": "O per�odo colonial no Brasil teve in�cio em:",
+          "opcoes": [ "a) 1530", "b) 1500", "c) 1600", "d) 1589" ]
+        },
+        {
+          "pergunta": "No per�odo pr�-colonial a atividade econ�mica que teve maior destaque foi:",
+          "opcoes": [ "a) pau-brasil", "b) minera��o", "c) cana-de-a��car", "d) caf�" ],
+          "alternativa_aluno": "C"
+        }
+      ],
+      "gabarito": [ "a", "a" ]
+    },
+    {
+      "id_cenario": "2",
+      "perguntas": [
+        {
+          "pergunta": "Quem proclamou a independ�ncia do Brasil?",
+          "opcoes": [ "a) Dom Pedro II", "b) Dom Pedro I", "c) Tiradentes", "d) Get�lio Vargas" ]
+        },
+        {
+          "pergunta": "Qual foi a primeira capital do Brasil?",
+          "opcoes": [ "a) Salvador", "b) Rio de Janeiro", "c) Bras�lia", "d) S�o Paulo" ]
+        }
+      ],
+      "gabarito": [ "b", "a" ]
+    },
+    {
+      "id_cenario": "3",
+      "perguntas": [
+        {
+          "pergunta": "Em que ano o Brasil se tornou uma rep�blica?",
+          "opcoes": [ "a) 1822", "b) 1889", "c) 1500", "d) 1894" ]
+        },
+        {
+          "pergunta": "Qual pa�s colonizou o Brasil?",
+          "opcoes": [ "a) Espanha", "b) Fran�a", "c) Inglaterra", "d) Portugal" ]
+        }
+      ],
+      "gabarito": [ "b", "d" ]
+    },
+    {
+      "id_cenario": "4",
+      "perguntas": [
+        {
+          "pergunta": "Qual foi o primeiro presidente do Brasil?",
+          "opcoes": [ "a) Get�lio Vargas", "b) Marechal Deodoro da Fonseca", "c) Juscelino Kubitschek", "d) Dom Pedro II" ]
+        },
+        {
+          "pergunta": "A aboli��o da escravatura no Brasil ocorreu em qual ano?",
+          "opcoes": [ "a) 1871", "b) 1888", "c) 1890", "d) 1900" ]
+        }
+      ],
+      "gabarito": [ "b", "b" ]
+    }
+  ]
+}

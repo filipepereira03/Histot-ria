@@ -1,0 +1,32 @@
+{
+  "Professores": [
+    {
+      "id_professor": 1,
+      "nome": "Douglas Soares",
+      "email": "DSProf@email.com",
+      "senha": "senha123",
+      "matricula": "123"
+    },
+    {
+      "id_professor": 2,
+      "nome": "Fernanda Lima",
+      "email": "fernanda.lima@prof.edu.br",
+      "senha": "senha321",
+      "matricula": "456"
+    },
+    {
+      "id_professor": 3,
+      "nome": "Carlos Almeida",
+      "email": "carlos.almeida@prof.edu.br",
+      "senha": "senha654",
+      "matricula": "789"
+    },
+    {
+      "id_professor": 4,
+      "nome": "Juliana Ferreira",
+      "email": "juliana.ferreira@prof.edu.br",
+      "senha": "senha987",
+      "matricula": "321"
+    }
+  ]
+}

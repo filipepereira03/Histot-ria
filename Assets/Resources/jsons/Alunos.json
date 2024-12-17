@@ -1,0 +1,32 @@
+{
+  "Alunos": [
+    {
+      "id_aluno": 1,
+      "nome": "Jo�o Silva",
+      "matricula": "123456",
+      "email": "joao.silva@edu.pucrs.br",
+      "senha": "senha123"
+    },
+    {
+      "id_aluno": 2,
+      "nome": "Maria Oliveira",
+      "matricula": "654321",
+      "email": "maria.oliveira@edu.pucrs.br",
+      "senha": "senha456"
+    },
+    {
+      "id_aluno": 3,
+      "nome": "Pedro Santos",
+      "matricula": "987654",
+      "email": "pedro.santos@edu.pucrs.br",
+      "senha": "senha789"
+    },
+    {
+      "id_aluno": 4,
+      "nome": "Ana Costa",
+      "matricula": "456789",
+      "email": "ana.costa@edu.pucrs.br",
+      "senha": "senha101"
+    }
+  ]
+}

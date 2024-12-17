@@ -1,0 +1,133 @@
+[
+    {
+        "id_turma": "2024-01-a",
+        "professor_id": "1",
+        "ativa": true,
+        "alunos": [
+            {"aluno_id": "1"},
+            {"aluno_id": "2"}
+        ],
+        "avaliacoes": [
+            {
+                "avaliacao_id": "1",
+                "respostas": ["a", "b", "c", "d"],
+                "aluno_id": "1",
+                "cenario_id": "1",
+                "nota": 10,
+                "comentario": "Excelente!"
+            },
+            {
+                "id_avaliacao": "2",
+                "respostas": ["a", "b", "c", "b"],
+                "aluno_id": "2",
+                "cenario_id": "1",
+                "nota": 8
+            }
+        ]
+    },
+    {
+        "id_turma": "2024-02-b",
+        "professor_id": "2",
+        "ativa": true,
+        "alunos": [
+            {"aluno_id": "3"},
+            {"aluno_id": "4"}
+        ],
+        "avaliacoes": [
+            {
+                "avaliacao_id": "3",
+                "respostas": ["b", "c", "b", "d"],
+                "aluno_id": "3",
+                "cenario_id": "2",
+                "nota": 7,
+                "comentario": "Bom trabalho"
+            },
+            {
+                "id_avaliacao": "4",
+                "respostas": ["a", "a", "c", "d"],
+                "aluno_id": "4",
+                "cenario_id": "2",
+                "nota": 6
+            }
+        ]
+    },
+    {
+        "id_turma": "2024-03-c",
+        "professor_id": "3",
+        "ativa": true,
+        "alunos": [
+            {"aluno_id": "5"},
+            {"aluno_id": "6"}
+        ],
+        "avaliacoes": [
+            {
+                "avaliacao_id": "5",
+                "respostas": ["d", "d", "a", "c"],
+                "aluno_id": "5",
+                "cenario_id": "3",
+                "nota": 9,
+                "comentario": "Quase perfeito!"
+            },
+            {
+                "id_avaliacao": "6",
+                "respostas": ["c", "b", "a", "c"],
+                "aluno_id": "6",
+                "cenario_id": "3",
+                "nota": 7
+            }
+        ]
+    },
+    {
+        "id_turma": "2024-04-d",
+        "professor_id": "4",
+        "ativa": false,
+        "alunos": [
+            {"aluno_id": "7"},
+            {"aluno_id": "8"}
+        ],
+        "avaliacoes": [
+            {
+                "avaliacao_id": "7",
+                "respostas": ["a", "b", "c", "c"],
+                "aluno_id": "7",
+                "cenario_id": "4",
+                "nota": 5,
+                "comentario": "Precisa melhorar."
+            },
+            {
+                "id_avaliacao": "8",
+                "respostas": ["d", "d", "d", "a"],
+                "aluno_id": "8",
+                "cenario_id": "4",
+                "nota": 4
+            }
+        ]
+    },
+    {
+        "id_turma": "2024-05-e",
+        "professor_id": "5",
+        "ativa": true,
+        "alunos": [
+            {"aluno_id": "9"},
+            {"aluno_id": "&ref:aluno010"}
+        ],
+        "avaliacoes": [
+            {
+                "avaliacao_id": "9",
+                "respostas": ["b", "a", "c", "b"],
+                "aluno_id": "9",
+                "cenario_id": "5",
+                "nota": 8,
+                "comentario": "Bem feito."
+            },
+            {
+                "id_avaliacao": "10",
+                "respostas": ["c", "c", "b", "a"],
+                "aluno_id": "&ref:aluno010",
+                "cenario_id": "5",
+                "nota": 9,
+                "comentario": "Ótimo esforço!"
+            }
+        ]
+    }
+]

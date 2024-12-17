@@ -1,0 +1,37 @@
+[
+    {
+        "aluno_id": "1",
+        "nome": "João Silva",
+        "matricula": "ALUNO001",
+        "email": "joao.silva@email.com",
+        "senha": "senha123"
+    },
+    {
+        "aluno_id": "2",
+        "nome": "Ana Santos",
+        "matricula": "ALUNO002",
+        "email": "ana.santos@email.com",
+        "senha": "senha456"
+    },
+    {
+        "aluno_id": "3",
+        "nome": "Pedro Almeida",
+        "matricula": "ALUNO003",
+        "email": "pedro.almeida@email.com",
+        "senha": "senha789"
+    },
+    {
+        "aluno_id": "4",
+        "nome": "Sofia Correia",
+        "matricula": "ALUNO004",
+        "email": "sofia.correia@email.com",
+        "senha": "senha321"
+    },
+    {
+        "aluno_id": "5",
+        "nome": "Lucas Martins",
+        "matricula": "ALUNO005",
+        "email": "lucas.martins@email.com",
+        "senha": "senha654"
+    }
+]

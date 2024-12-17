@@ -1,0 +1,77 @@
+[
+    {
+        "cenario_id": "1",
+        "perguntas": [
+            {
+                "pergunta": "Qual seria a primeira prioridade de Dom Pedro II ao assumir o trono?",
+                "opcoes": [
+                    "a) Promover a unidade nacional, buscando apoio político nas províncias e garantindo a estabilidade do Império",
+                    "b) Fortalecer o exército para reprimir futuras revoltas",
+                    "c) Centralizar o poder no Rio de Janeiro, ignorando as demandas provinciais",
+                    "d) Iniciar uma campanha para expandir o território brasileiro"
+                ]
+            }
+        ],
+        "gabarito": ["a"]
+    },
+    {
+        "cenario_id": "2",
+        "perguntas": [
+            {
+                "pergunta": "Qual estratégia Dom Pedro II deve adotar para conduzir o Brasil à vitória na Guerra do Paraguai?",
+                "opcoes": [
+                    "a) Aumentar o apoio logístico e financeiro ao Exército, garantindo uma vitória rápida e decisiva",
+                    "b) Retirar as tropas para evitar mais custos e buscar uma solução diplomática",
+                    "c) Delegar o comando da guerra a aliados regionais, diminuindo a participação direta do Brasil",
+                    "d) Mobilizar toda a população para um esforço de guerra total, sem considerar os impactos econômicos"
+                ]
+            }
+        ],
+        "gabarito": ["a"]
+    },
+    {
+        "cenario_id": "3",
+        "perguntas": [
+            {
+                "pergunta": "Qual seria a melhor abordagem de Dom Pedro II para a abolição da escravatura?",
+                "opcoes": [
+                    "a) Apoiar a assinatura da Lei Áurea, mesmo que enfrente oposição, e trabalhar em políticas para integrar os ex-escravos na sociedade",
+                    "b) Adiar a abolição para garantir que os fazendeiros possam se adaptar gradualmente",
+                    "c) Manter a escravidão por mais alguns anos, focando em reformas agrárias primeiro",
+                    "d) Transferir a responsabilidade para a Princesa Isabel e evitar tomar uma posição direta"
+                ]
+            }
+        ],
+        "gabarito": ["a"]
+    },
+    {
+        "cenario_id": "4",
+        "perguntas": [
+            {
+                "pergunta": "Qual seria a melhor maneira de Dom Pedro II lidar com a Questão Militar?",
+                "opcoes": [
+                    "a) Reconhecer a importância do Exército, oferecendo melhorias nas condições de trabalho e maior reconhecimento aos oficiais",
+                    "b) Reprimir qualquer insatisfação militar com medidas disciplinares rígidas",
+                    "c) Ignorar as queixas dos militares, confiando na lealdade incondicional ao trono",
+                    "d) Convocar novas tropas para substituir os oficiais insatisfeitos"
+                ]
+            }
+        ],
+        "gabarito": ["a"]
+    },
+    {
+        "cenario_id": "5",
+        "perguntas": [
+            {
+                "pergunta": "Qual seria a melhor atitude de Dom Pedro II diante da Proclamação da República?",
+                "opcoes": [
+                    "a) Abdicar pacificamente e aceitar o exílio para garantir uma transição sem violência",
+                    "b) Resistir à Proclamação da República e tentar mobilizar forças leais para manter a monarquia",
+                    "c) Negociar para manter uma monarquia constitucional limitada",
+                    "d) Ignorar a proclamação e continuar governando como se nada tivesse acontecido"
+                ]
+            }
+        ],
+        "gabarito": ["a"]
+    }
+]
